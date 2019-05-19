@@ -1,14 +1,14 @@
 node("node02") {
-    stage("拉源码"){
+    stage("source"){
         echo 'Hello World'
     }
-    stage("拉源码1"){
+    stage("build"){
         echo 'Hello World'
     }
-    stage("拉源码5"){
+    stage("test"){
         echo 'Hello World'
     }
-    stage("拉源码11"){
+    stage("push"){
         echo 'Hello World'
     }
  
