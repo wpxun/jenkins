@@ -8,7 +8,7 @@ import (
 
 func IndexHandler(w http.ResponseWriter, r *http.Request) {
     host := os.Getenv("HOSTNAME")
-    fmt.Fprintln(w, "hello world "+ host +", this is version 1." )
+    fmt.Fprintln(w, "hello world feature"+ host +", this is version 1." )
 }
 
 
